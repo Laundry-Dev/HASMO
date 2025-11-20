@@ -1,0 +1,116 @@
+{
+	"アルマ": {
+		"title": "剣士の記憶を追体験する",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_sword"
+			}
+		},
+		"metadata": {
+			"icon": "sxhfhun5b5568mp7"
+		}
+	},
+	"サジタリウス": {
+		"title": "弓士の記憶を追体験する",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"metadata": {
+			"icon": "sxhfhun5b5568mp7"
+		}
+	},
+	"ヴェネフィクタス": {
+		"title": "魔道士の記憶を追体験する",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"metadata": {
+			"icon": "sxhfhun5b5568mp7"
+		}
+	},
+	"アルカナム": {
+		"title": "",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"metadata": {
+			"icon": "sxhfhun5b5568mp7"
+		}
+	},
+	"Arma_Melee_damage_+1": {
+		"title": "剛拳-Ⅰ",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yvxk1loqhwry54e4"
+		}
+	},
+	"Arma_Melee_damage_+2": {
+		"title": "剛拳-Ⅱ",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ualvf07p04btissy"
+		}
+	},
+	"Arma_Melee_damage_+3": {
+		"title": "剛拳-Ⅲ",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ualvf07p04btissy"
+		}
+	}
+}

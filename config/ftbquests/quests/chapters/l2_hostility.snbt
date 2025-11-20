@@ -1,0 +1,446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_hostility"
+	group: "12F3D2BD1F2D19AC"
+	icon: "l2hostility:teleport"
+	id: "7AA8DA7FF0FCDCFF"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"この世界では\"危険度\"が存在し、危険度はモブを倒すほど上がっていきます"
+				"危険度を参照しモブの\"レベル\"が上がっていき、レベルが上がるごとにモブの攻撃力や体力が強化され、強力な能力が付与される可能性もあります"
+			]
+			id: "10887F38F89FC4A6"
+			tasks: [{
+				id: "37822B5C681A72C4"
+				title: "L2 Hostility"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10887F38F89FC4A6"]
+			description: ["初期スポーン地点から離れるほど危険度の高いモブが出現し、また別ディメンションに行くなどすると危険度が上昇します"]
+			id: "1BFE42584F17C6F7"
+			tasks: [{
+				id: "00E7781FF2649653"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BFE42584F17C6F7"]
+			description: ["ボス級のモブは特にレベルが高くなり、後述する\"特性\"を多く保有します"]
+			id: "6C446E0586FEF69B"
+			tasks: [{
+				id: "7ADEB179B195AD8F"
+				title: "ボス"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C446E0586FEF69B"]
+			description: [
+				"レベルが20を超えた辺りから、特定の能力を持つモブが出現し始めます、この能力は\"特性\"と呼ばれます"
+				"特性はモブの名前の上に表示されるため、警戒は容易です"
+			]
+			id: "72C9692D1732911F"
+			tasks: [{
+				id: "72FA8D5126C896A9"
+				title: "特性"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72C9692D1732911F"]
+			description: [
+				"100レベルを超えると、伝説特性をもつモブが出現し始めます、シュルカー攻撃、透明化、物理無効、防御無効、不死身などです"
+				"不死身の敵は、エンチャント「Cursed Blade」が付いた武器で攻撃するか、Cursed効果のポーションを投げて付与している間に攻撃することで倒せます"
+			]
+			id: "72A35BF783F8F2F6"
+			tasks: [{
+				id: "0BD3385838EB2299"
+				title: "特性２"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72A35BF783F8F2F6"]
+			description: [
+				"さぁ、反撃の始まりです"
+				"まずはこのアイテムをクラフトしましょう"
+				"このアイテムを持つと、現在の危険度とモブの特性レベルが分かります"
+			]
+			id: "4732A51782802BC1"
+			tasks: [{
+				id: "282239CA6202494C"
+				item: "l2hostility:hostility_detector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4732A51782802BC1"]
+			description: [
+				"次に、このアイテムを手に入れましょう"
+				"このアイテムは\"特性\"を持つ敵を倒すと一定確率でドロップします"
+				"このアイテム単体だと意味が無いため、次のクエストに進みましょう"
+			]
+			id: "606825C7CB11E33B"
+			tasks: [{
+				id: "44FCFD52929F4F04"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["606825C7CB11E33B"]
+			description: [
+				"これをキュリオススロットの頭に装着すると、見えない敵も見えるようになります"
+				"ですがそれだけではありません、先程のアイテムと組み合わせることでより強力になります"
+			]
+			id: "3E4ACA00AC14026E"
+			tasks: [{
+				id: "74904F03265CC24D"
+				item: "l2hostility:detector_glasses"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E4ACA00AC14026E"]
+			description: [
+				"敵意のオーブをオフハンド、敵意探知機をメインハンドに持ち、メガネを装着した状態で地面を右クリックするとチャンクが表示されます"
+				"クリックしたチャンクにはレベルや特性が付与されたモブはスポーンしません"
+				"おめでとうございます！報酬を受け取ってください！"
+			]
+			id: "2B584394206CC652"
+			rewards: [
+				{
+					count: 32
+					id: "6A81B5CF5DE217BF"
+					item: "l2complements:enchanted_totemic_apple"
+					type: "item"
+				}
+				{
+					id: "108525BC0EC8C0F7"
+					item: "l2artifacts:random_set_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "681EDD89C9F17231"
+				title: "安全地帯"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72A35BF783F8F2F6"]
+			description: [
+				"あなたが攻撃は最大の防御だと思っているなら、このルートは非常におすすめできます"
+				"まずはこのアイテムを作成しましょう"
+				"作成したら、キュリオススロットに装着し敵を倒しましょう"
+				"このアイテムを装備した状態で敵を倒すと、様々なアイテムが追加でドロップするようになります"
+			]
+			id: "4C68AA0D72989A99"
+			tasks: [{
+				id: "5034DAD20DAA1B08"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C68AA0D72989A99"]
+			description: ["そして次はこのアイテムを作成しましょう、これを装備した状態で敵を倒すと、次のチャームを作成するために必要なアイテムが入手できます"]
+			id: "5EB1C2DCCE08B2DA"
+			rewards: [{
+				count: 2
+				id: "2DB5E44ED349C6AD"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3222274C8F8FB528"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EB1C2DCCE08B2DA"]
+			description: ["まだまだ通過点に過ぎません、次に進みましょう！"]
+			id: "33FA9D564CF9E024"
+			tasks: [{
+				id: "25CD0E4BC682BA4B"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33FA9D564CF9E024"]
+			description: [
+				"これを装備した状態で敵を倒すと、一部の特殊なアイテムを入手できます"
+				"それらはこの先特殊な\"呪い\"をクラフトするのに必要です"
+			]
+			id: "48C9D873DC941BB2"
+			rewards: [{
+				count: 10
+				id: "1563CA48E8652632"
+				item: "l2hostility:witch_droplet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29E0FEF6E57DB3E4"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48C9D873DC941BB2"]
+			description: [
+				"さて、ここから所謂\"エンドコンテンツ\"と言われる部類に入ります"
+				"この\"呪い\"を装備した状態で敵を倒すと、倒した敵の特性をドロップします(一定確率ですが)"
+				"その特性を使い様々な\"呪い\"を作成しましょう！"
+			]
+			id: "1D3BFD012B0E746D"
+			tasks: [{
+				id: "2520D9F54E4C3248"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48C9D873DC941BB2"]
+			description: [
+				"これは必ずしも作成する必要はありません、ですが、作成すると冒険が非常に楽になるでしょう"
+				"このチャームを装備し敵を倒すと貴重なアイテムをドロップします！"
+			]
+			id: "654B4FC544B1464B"
+			rewards: [{
+				count: 32
+				id: "0F1A58D4FE3FE013"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67FB17108D8FB385"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D3BFD012B0E746D"]
+			id: "489C76949B76E9CF"
+			tasks: [{
+				id: "2EE61EA347B2F7AB"
+				item: "l2hostility:ring_of_healing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48C9D873DC941BB2"]
+			id: "057C569E84DA3223"
+			tasks: [{
+				id: "5AAE350C65A822C2"
+				item: "l2hostility:ring_of_corrosion"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D3BFD012B0E746D"]
+			id: "5DFDAADB9474F78C"
+			tasks: [{
+				id: "1D54E8522C32877F"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DFDAADB9474F78C"]
+			id: "348367E248D20B1D"
+			tasks: [{
+				id: "42FB753265E5EC79"
+				item: "l2hostility:ring_of_reflection"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2A76C58C9302C43B"
+				"5DFDAADB9474F78C"
+			]
+			id: "30CBAFF28B787A67"
+			tasks: [{
+				id: "41C0E42094D629F4"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DFDAADB9474F78C"]
+			id: "3F050A7A914989D2"
+			tasks: [{
+				id: "1F8B5C883C81F2D5"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30CBAFF28B787A67"
+				"5DFDAADB9474F78C"
+			]
+			id: "2DC06F5DC553B627"
+			tasks: [{
+				id: "7BD6A3966E417AFC"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48C9D873DC941BB2"]
+			id: "2AE53B834DB329D1"
+			tasks: [{
+				id: "5862260A65C8ACB7"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["654B4FC544B1464B"]
+			id: "2A76C58C9302C43B"
+			tasks: [{
+				id: "4D73DBACCF7853FE"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2AE53B834DB329D1"]
+			id: "4165A0735664F953"
+			tasks: [{
+				id: "1D81499197BC1BDE"
+				item: "l2hostility:divinity_light"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DC06F5DC553B627"]
+			id: "17A8E660C1C18CA2"
+			tasks: [{
+				id: "5FA130BC3438A750"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["348367E248D20B1D"]
+			id: "4619322528449664"
+			tasks: [{
+				id: "21E876BFE7D94DED"
+				item: "l2hostility:ring_of_ocean"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F050A7A914989D2"]
+			id: "732EED2858BB2D38"
+			tasks: [{
+				id: "0F1E4DA6F50C8CCA"
+				item: "l2hostility:ring_of_divinity"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["732EED2858BB2D38"]
+			id: "728ACFED532034C3"
+			tasks: [{
+				id: "73166BB0EF90A986"
+				item: "l2hostility:divinity_cross"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["489C76949B76E9CF"]
+			id: "654FC317037345F1"
+			tasks: [{
+				id: "08527D344A6405EE"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"17A8E660C1C18CA2"
+				"348367E248D20B1D"
+			]
+			id: "1866FAFDB3932435"
+			tasks: [{
+				id: "0F3433D3193E5D43"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+	]
+	title: "L2 Hostility"
+}

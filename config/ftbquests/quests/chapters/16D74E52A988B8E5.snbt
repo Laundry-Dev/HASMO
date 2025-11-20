@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16D74E52A988B8E5"
+	group: "12F3D2BD1F2D19AC"
+	id: "16D74E52A988B8E5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"あなたが目を開けると、そこは....どこでもない場所だった。"
+			"意味が分からない。"
+			"さっきまで何をしていたのか……記憶を頼りに探ろうとしても、何ひとつ思い出せない。"
+			"ふと気づくと、あなたはバックパックを背負っていた。"
+			"中を覗くと、数日分は持ちそうな食料、いくつかの便利な道具、そして.....&n&l武器"
+		]
+		id: "712925184A304B7C"
+		rewards: [
+			{
+				id: "3D075A1207E1B7E5"
+				item: "weaponmaster:weaponkit"
+				type: "item"
+			}
+			{
+				id: "4834F9C974B2458B"
+				item: "weaponmaster:workstation"
+				type: "item"
+			}
+			{
+				id: "29C615C486FAEA18"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "5473909B38F9CA59"
+				item: "minecraft:bread"
+				type: "item"
+			}
+			{
+				id: "5B2B054785ECE6CF"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "0DEF3B2F7B0F7A01"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2FC7C558D918B27E"
+				item: {
+					Count: 1
+					id: "l2weaponry:iron_round_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		subtitle: "ここは...?"
+		tasks: [{
+			id: "0761CAB48C413ABE"
+			title: "こんにちわ、世界"
+			type: "checkmark"
+		}]
+		title: "Hello! World!"
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "全ての始まり"
+}

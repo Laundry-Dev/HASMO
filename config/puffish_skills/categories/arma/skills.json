@@ -1,0 +1,194 @@
+{
+	"sfm01xs8osgei2b9": {
+		"definition": "アルマ",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"58mzuljpzjy8gpei": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"fvy677chgzqbnu7v": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"p0x217fwjmp4yhqw": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 32,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"rwvh6ddcgeye88ic": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -32,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"0dpta559ggvqwzu4": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"jcpxetwzdtm2fzjj": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"jj7q9ejfkfygb2ey": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"shl184xyacrr0q5j": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"qn3libxi9lnobo3c": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"z8a1tnz57df3wxs6": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"pful2sa853fs9o7o": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -369.5041722813605,
+		"root": false
+	},
+	"nlskismvlxegq4ct": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": -64,
+		"y": -406.4545895094965,
+		"root": false
+	},
+	"qqt5rgz87d0vkn00": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -369.5041722813604,
+		"root": false
+	},
+	"6lcth743yz15byin": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -406.4545895094965,
+		"root": false
+	},
+	"ldmh10d8igwdevff": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": -64,
+		"y": -443.40500673763256,
+		"root": false
+	},
+	"5vn07osxs8s8unkl": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": -64,
+		"y": -480.35542396576864,
+		"root": false
+	},
+	"q8ks2qi0vby3s47u": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": -64,
+		"y": -517.3058411939047,
+		"root": false
+	},
+	"5e0j67ok25xcrjnr": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": 64,
+		"y": -443.40500673763256,
+		"root": false
+	},
+	"w77g79kofzzn9nmg": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": 64,
+		"y": -480.3554239657685,
+		"root": false
+	},
+	"oct64snoy50zzs0f": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": 64,
+		"y": -517.3058411939046,
+		"root": false
+	},
+	"4f37wbcbfbwrvwzl": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": 64,
+		"y": -554.2562584220407,
+		"root": false
+	},
+	"fi8tnwlnjg6l8olr": {
+		"definition": "Arma_Melee_damage_+2",
+		"x": -64,
+		"y": -554.2562584220407,
+		"root": false
+	},
+	"11qe0k558apleqsd": {
+		"definition": "Arma_Melee_damage_+3",
+		"x": -64,
+		"y": -591.2066756501767,
+		"root": false
+	},
+	"17dmnli3f9d6tera": {
+		"definition": "Arma_Melee_damage_+3",
+		"x": 64,
+		"y": -591.2066756501767,
+		"root": false
+	},
+	"m8y7rk6oqxzjjhvq": {
+		"definition": "Arma_Melee_damage_+3",
+		"x": 32,
+		"y": -609.6818842642448,
+		"root": false
+	},
+	"0v13y4a0bkc6upf5": {
+		"definition": "Arma_Melee_damage_+3",
+		"x": 0,
+		"y": -628.1570928783128,
+		"root": false
+	},
+	"jd4yctc7gvuu6fbf": {
+		"definition": "Arma_Melee_damage_+3",
+		"x": -32,
+		"y": -609.6818842642448,
+		"root": false
+	},
+	"hroxpkj7lng2suzr": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"iual4tku1mfghnuj": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -221.70250336881625,
+		"root": false
+	},
+	"j3ruzr5bcbqaetuy": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -258.6529205969523,
+		"root": false
+	},
+	"qq75rmm41qu3c3s1": {
+		"definition": "Arma_Melee_damage_+1",
+		"x": 64,
+		"y": -295.6033378250884,
+		"root": false
+	}
+}

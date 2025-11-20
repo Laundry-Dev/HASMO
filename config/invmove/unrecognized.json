@@ -1,0 +1,19 @@
+{
+  "allowMovement": {
+    "com.robertx22.mine_and_slash.gui.screens.character_screen.MainHubScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.robertx22.mine_and_slash.gui.screens.spell.SpellSchoolScreen": true,
+    "dev.xkmc.l2tabs.tabs.contents.AttributeScreen": true,
+    "dev.xkmc.l2artifacts.content.client.tab.SetEffectScreen": true,
+    "dev.xkmc.modulargolems.content.client.tracker.AliveGolemPage": true,
+    "dev.xkmc.l2hostility.content.menu.tab.DifficultyScreen": true
+  },
+  "hideBackground": {
+    "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
+    "com.dplayend.justleveling.client.screen.JustLevelingScreen": true,
+    "dev.xkmc.l2tabs.tabs.contents.AttributeScreen": true,
+    "dev.xkmc.l2artifacts.content.client.tab.SetEffectScreen": true,
+    "dev.xkmc.modulargolems.content.client.tracker.AliveGolemPage": true,
+    "dev.xkmc.l2hostility.content.menu.tab.DifficultyScreen": true
+  }
+}
