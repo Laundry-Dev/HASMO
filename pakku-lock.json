@@ -4357,6 +4357,47 @@
             ]
         },
         {
+            "pakku_id": "ZbqaRq7kHq5Kvtel",
+            "pakku_links": [
+                "r18AQ8eKpMKBPO00"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "overflowing-bars"
+            },
+            "name": {
+                "curseforge": "Overflowing Bars"
+            },
+            "id": {
+                "curseforge": "852662"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OverflowingBars-v8.0.1-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5763/974/OverflowingBars-v8.0.1-1.20.1-Forge.jar",
+                    "id": "5763974",
+                    "parent_id": "852662",
+                    "hashes": {
+                        "sha1": "047ac47549ae0a21b05f70d74bcf436ee0221eef",
+                        "md5": "6152710c2ddbd371b91eb7c44aee6167"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 73689,
+                    "date_published": "2024-09-28T08:14:17.073Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sRHCNt2CS4khrw0Z",
             "type": "MOD",
             "slug": {
