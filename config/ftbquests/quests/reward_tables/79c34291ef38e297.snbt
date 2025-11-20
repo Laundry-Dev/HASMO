@@ -1,0 +1,10 @@
+{
+	id: "79C34291EF38E297"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "celestial_artifacts:heart_of_revenge" }
+		{ item: "celestial_artifacts:holy_necklace" }
+	]
+	title: "守護者"
+}

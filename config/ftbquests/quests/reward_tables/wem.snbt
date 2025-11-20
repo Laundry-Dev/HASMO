@@ -1,0 +1,10 @@
+{
+	id: "7F16DEDC6D246AE7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "weaponmaster:weaponkit" }
+		{ item: "weaponmaster:workstation" }
+	]
+	title: "wem"
+}

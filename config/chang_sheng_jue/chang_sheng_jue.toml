@@ -1,0 +1,33 @@
+#是否启用自动接受类型任务
+enableQuests = true
+#是否启用劫匪生成
+enableBanditSpawn = true
+#是否启用反派生成
+enableVillainSpawn = true
+#自然恢复的天地灵气值
+#默认: 10
+#Range: > -2147483648
+spiritRecoveryAmount = 10
+#天地灵气自然恢复间隔（游戏刻）
+#默认200刻(10秒)
+#Range: 20 ~ 72000
+spiritRecoveryInterval = 200
+#化神期后灵根数量影响聚气效率
+#默认每多一个灵根增加5%效率
+#Range: > -2147483648
+spiritRootJuQiEfficiency = 5
+#默认资质影响吐纳的效率
+#默认为2%,该值会被资质高低影响,如果资质过低增加此值会减少你的吐纳效率
+#Range: > -2147483648
+aptitudeToTunNaRate = 2
+#是否显示吐纳粒子
+#吐纳时的粒子特效,默认显示
+tunNaParticle = true
+#是否显示突破粒子
+#突破境界时的粒子特效,默认显示
+breakthroughParticle = true
+#飞刀囊中最大可放入的飞刀数量
+#默认为9把
+#Range: 0 ~ 64
+flyingDaggerPouchMaxSlots = 9
+

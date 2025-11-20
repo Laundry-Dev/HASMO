@@ -1,0 +1,12 @@
+#是否优化在史诗战斗锁敌模式下的输入。启用后方向键将相对玩家模型，而非相机。
+optimize_input_when_ef_lock = true
+#是否自动锁敌
+auto_lock = true
+#自动锁敌的有效距离
+#Range: > 1
+auto_lock_dist = 5
+#不会自动锁的实体
+"不会自动锁的实体" = ["minecraft:villager"]
+#是否自动往相机回正
+auto_rotate_front = true
+

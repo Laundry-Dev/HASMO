@@ -1,0 +1,189 @@
+#踏雪无痕最大等级上限
+#默认: 2
+#Range: > 0
+duguNineSwordsMaxLevel = 2
+#踏雪无痕突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+duguNineSwordsMaxExp = 100
+#踏雪无痕最大冷却时间
+#默认: 100(tick)
+#Range: > 0
+duguNineSwordsMaxCooldown = 100
+#高家枪法最大等级上限
+#默认: 2
+#Range: > 0
+gaoMarksmanshipMaxLevel = 2
+#高家枪法突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+gaoMarksmanshipMaxExp = 100
+#高家枪法最大冷却时间
+#默认: 120(tick)
+#Range: > 0
+gaoMarksmanshipMaxCooldown = 120
+#隔山打牛最大等级上限
+#默认: 2
+#Range: > 0
+geShanDaNiuMaxLevel = 2
+#隔山打牛突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+geShanDaNiuMaxExp = 100
+#隔山打牛最大冷却时间
+#默认: 200(tick)
+#Range: > 0
+geShanDaNiuMaxCooldown = 200
+#金乌刀法最大等级上限
+#默认: 2
+#Range: > 0
+goldenBlackKnifeMethodMaxLevel = 2
+#金乌刀法突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+goldenBlackKnifeMethodMaxExp = 100
+#金乌刀法最大冷却时间
+#默认: 140(tick)
+#Range: > 0
+goldenBlackKnifeMethodMaxCooldown = 140
+#少林棍法最大等级上限
+#默认: 2
+#Range: > 0
+shaolinStickMethodMaxLevel = 2
+#少林棍法突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+shaolinStickMethodMaxExp = 100
+#少林棍法最大冷却时间
+#默认: 160(tick)
+#Range: > 0
+shaolinStickMethodMaxCooldown = 160
+#葵花点穴手最大等级上限
+#默认: 2
+#Range: > 0
+sunflowerPointCavemanMaxLevel = 2
+#葵花点穴手突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+sunflowerPointCavemanMaxExp = 100
+#葵花点穴手最大冷却时间
+#默认: 180(tick)
+#Range: > 0
+sunflowerPointCavemanMaxCooldown = 180
+#龟息功最大等级上限
+#默认: 2
+#Range: > 0
+turtleBreathWorkMaxLevel = 2
+#龟息功突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+turtleBreathWorkMaxExp = 100
+#龟息功最大冷却时间
+#默认: 900(tick)
+#Range: > 0
+turtleBreathWorkMaxCooldown = 900
+#玄女剑法最大等级上限
+#默认: 2
+#Range: > 0
+xuannuSwordsmanshipMaxLevel = 2
+#玄女剑法突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+xuannuSwordsmanshipMaxExp = 100
+#玄女剑法最大冷却时间
+#默认: 80(tick)
+#Range: > 0
+xuannuSwordsmanshipMaxCooldown = 80
+#金钟罩最大等级上限
+#默认: 2
+#Range: > 0
+relentlessThrowingKnivesMaxLevel = 2
+#金钟罩突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+relentlessThrowingKnivesMaxExp = 100
+#金钟罩最大冷却时间
+#默认: 160(tick)
+#Range: > 0
+relentlessThrowingKnivesMaxCooldown = 160
+#大力神功突破所需的移动距离
+#默认: 1000000
+#Range: > 0
+herculesMaxExp = 1000000
+#不死神功最大等级上限
+#默认: 2
+#Range: > 0
+immortalMiracleMaxLevel = 2
+#不死神功突破所需的成功释放次数
+#默认: 25
+#Range: > 0
+immortalMiracleMaxExp = 25
+#不死神功最大冷却时间
+#默认: 1600(tick)
+#Range: > 0
+immortalMiracleMaxCooldown = 1600
+#乾坤大挪移最大等级上限
+#默认: 2
+#Range: > 0
+qianKunDaNuoYiMaxLevel = 2
+#乾坤大挪移突破所需的成功释放次数
+#默认: 100
+#Range: > 0
+qianKunDaNuoYiMaxExp = 100
+#乾坤大挪移最大冷却时间
+#默认: 40(tick)
+#Range: > 0
+qianKunDaNuoYiMaxCooldown = 40
+#乾坤大挪移每次反弹伤害的概率
+#默认: 35%
+#Range: 0 ~ 100
+qianKunDaNuoYiProbability = 35
+#乾坤大挪移大成后每点血量增加反弹伤害的概率
+#默认: 2%
+#Range: 0 ~ 100
+qianKunDaNuoYiBounceDamageExtraProbability = 2
+#乾坤大挪移反弹伤害的倍率
+#默认: 150%
+#Range: > 0
+qianKunDaNuoYiBounceDamageMultiplier = 150
+#乾坤大挪移每次反弹伤害需要的时间
+#默认: 20(tick)
+#Range: > 0
+qianKunDaNuoYiTick = 20
+#乾坤大挪移每次释放后增加的冷却恢复到默认冷却的时间
+#默认: 3600(tick)
+#Range: > 0
+qianKunDaNuoYiMaxCooldownExtraTick = 3600
+#易筋经突破所需的成功释放次数
+#默认: 1000
+#Range: > 0
+theClassicsOfTendonChangingMaxExp = 1000
+#庖丁解牛突破所需的成功释放次数
+#默认: 1000
+#Range: > 0
+paodingMaxExp = 1000
+#庖丁解牛杀死生物时额外掉落肉的数量
+#默认: 1
+#Range: > 0
+paodingAdditionalDropsCount = 1
+#吴刚伐桂突破所需的成功释放次数
+#默认: 1000
+#Range: > 0
+wuGangCutGuiMaxExp = 1000
+#愚公移山突破所需的成功释放次数
+#默认: 1000
+#Range: > 0
+yugongMovesMountainsMaxExp = 1000
+#愚公移山的挖掘范围
+#默认: 2
+#Range: > 0
+yugongMovesMountainsExcavationRange = 2
+#张门心学突破所需的交易成功次数
+#默认: 100
+#Range: > 0
+zhangMenXinXueMaxExp = 100
+#张门心学大成后交易不消耗物品的概率
+#默认: 10%
+#Range: > 0
+zhangMenXinXueExtraProbability = 10
+

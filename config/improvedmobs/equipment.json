@@ -1,0 +1,1376 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "ars_nouveau:enchanters_sword": [
+      13629,
+      6.632802
+    ],
+    "ars_nouveau:spell_bow": [
+      15400,
+      2.1195521
+    ],
+    "ars_nouveau:spell_crossbow": [
+      15856,
+      1.5245426
+    ],
+    "block_factorys_bosses:dagger": [
+      16816,
+      0.038399998
+    ],
+    "block_factorys_bosses:knight_sword": [
+      14426,
+      4.9560785
+    ],
+    "block_factorys_bosses:large_sword": [
+      16284,
+      0.97424436
+    ],
+    "block_factorys_bosses:warrior_sword": [
+      16600,
+      0.5526204
+    ],
+    "cataclysm:athame": [
+      16731,
+      0.0469
+    ],
+    "cataclysm:black_steel_axe": [
+      15773,
+      1.6320775
+    ],
+    "cataclysm:black_steel_sword": [
+      15860,
+      1.5193686
+    ],
+    "cataclysm:final_fractal": [
+      5638,
+      23.563541
+    ],
+    "cataclysm:khopesh": [
+      15881,
+      1.4922183
+    ],
+    "cataclysm:zweiender": [
+      5638,
+      23.563541
+    ],
+    "dungeonnowloading:life_stealer": [
+      14455,
+      4.8937836
+    ],
+    "dungeonnowloading:spawner_sword": [
+      14455,
+      4.8937836
+    ],
+    "dungeonnowloading:vertex_bow": [
+      14632,
+      4.508568
+    ],
+    "immersive_weathering:ice_sickle": [
+      17105,
+      0.0095
+    ],
+    "irons_spellbooks:amethyst_rapier": [
+      14428,
+      4.951788
+    ],
+    "irons_spellbooks:autoloader_crossbow": [
+      14926,
+      3.826627
+    ],
+    "irons_spellbooks:claymore": [
+      15311,
+      2.236861
+    ],
+    "irons_spellbooks:keeper_flamberge": [
+      15270,
+      2.2910256
+    ],
+    "irons_spellbooks:magehunter": [
+      14457,
+      4.889481
+    ],
+    "irons_spellbooks:misery": [
+      15278,
+      2.280451
+    ],
+    "irons_spellbooks:spellbreaker": [
+      14358,
+      5.1015
+    ],
+    "kaleidoscope_cookery:diamond_kitchen_knife": [
+      14520,
+      4.753436
+    ],
+    "kaleidoscope_cookery:gold_kitchen_knife": [
+      17146,
+      0.0053999997
+    ],
+    "kaleidoscope_cookery:iron_kitchen_knife": [
+      16761,
+      0.043899998
+    ],
+    "kaleidoscope_cookery:netherite_kitchen_knife": [
+      13704,
+      6.476395
+    ],
+    "l2complements:eternium_axe": [
+      13,
+      35.822525
+    ],
+    "l2complements:eternium_sword": [
+      112,
+      35.605003
+    ],
+    "l2complements:poseidite_axe": [
+      14461,
+      4.8808722
+    ],
+    "l2complements:poseidite_sword": [
+      14560,
+      4.666484
+    ],
+    "l2complements:sculkium_axe": [
+      13554,
+      6.789111
+    ],
+    "l2complements:sculkium_sword": [
+      13648,
+      6.59319
+    ],
+    "l2complements:shulkerate_axe": [
+      10211,
+      13.789017
+    ],
+    "l2complements:shulkerate_sword": [
+      10310,
+      13.5798855
+    ],
+    "l2complements:totemic_gold_axe": [
+      15311,
+      2.236861
+    ],
+    "l2complements:totemic_gold_sword": [
+      15410,
+      2.1063945
+    ],
+    "legendary_monsters:anchor_handle": [
+      16710,
+      0.049
+    ],
+    "legendary_monsters:axe_of_lightning": [
+      11854,
+      10.333886
+    ],
+    "legendary_monsters:chorus_blade": [
+      15835,
+      1.5517184
+    ],
+    "legendary_monsters:chorus_cannon": [
+      14800,
+      4.129458
+    ],
+    "legendary_monsters:dinosaur_bone_club": [
+      14243,
+      5.345786
+    ],
+    "legendary_monsters:fiery_jaw": [
+      15860,
+      1.5193686
+    ],
+    "legendary_monsters:golden_halbert": [
+      16698,
+      0.26597553
+    ],
+    "legendary_monsters:knights_sword": [
+      16710,
+      0.049
+    ],
+    "legendary_monsters:monstrous_anchor": [
+      15072,
+      3.4189806
+    ],
+    "legendary_monsters:sand_cannon": [
+      14800,
+      4.129458
+    ],
+    "legendary_monsters:sharp_battle_axe": [
+      15835,
+      1.5517184
+    ],
+    "legendary_monsters:sharp_sai": [
+      16710,
+      0.049
+    ],
+    "legendary_monsters:soul_great_sword": [
+      13016,
+      7.9092336
+    ],
+    "legendary_monsters:the_great_frost": [
+      15835,
+      1.5517184
+    ],
+    "legendary_monsters:void_sword": [
+      16710,
+      0.049
+    ],
+    "mahoutsukai:caliburn": [
+      15473,
+      2.0236118
+    ],
+    "mahoutsukai:clarent": [
+      14623,
+      4.5284204
+    ],
+    "mahoutsukai:morgan": [
+      15473,
+      2.0236118
+    ],
+    "mahoutsukai:rule_breaker": [
+      17088,
+      0.0112
+    ],
+    "mahoutsukai:weapon_projectile_bow": [
+      15340,
+      2.1985962
+    ],
+    "minecraft:bow": [
+      14632,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      14926,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      14395,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      14457,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      15600,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      17056,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      17119,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      16623,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      16710,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      15700,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      13559,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      13629,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      16650,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      15700,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      16826,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      16934,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      15500,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      14700,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      17010,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      17073,
+      0.0127
+    ],
+    "mowziesmobs:blowgun": [
+      14800,
+      4.129458
+    ],
+    "mowziesmobs:wrought_axe": [
+      16623,
+      0.51635593
+    ],
+    "opposing_force:tesla_bow": [
+      14926,
+      3.826627
+    ],
+    "opposing_force:vile_boulder": [
+      16748,
+      0.045199998
+    ],
+    "twilightdelight:teardrop_sword": [
+      14437,
+      4.9324703
+    ],
+    "twilightforest:diamond_minotaur_axe": [
+      14358,
+      5.1015
+    ],
+    "twilightforest:ender_bow": [
+      14632,
+      4.508568
+    ],
+    "twilightforest:fiery_sword": [
+      15341,
+      2.1972775
+    ],
+    "twilightforest:giant_sword": [
+      15224,
+      2.3518867
+    ],
+    "twilightforest:glass_sword": [
+      16161,
+      1.1319785
+    ],
+    "twilightforest:gold_minotaur_axe": [
+      17056,
+      0.014399999
+    ],
+    "twilightforest:ice_bow": [
+      14632,
+      4.508568
+    ],
+    "twilightforest:ice_sword": [
+      17042,
+      0.0158
+    ],
+    "twilightforest:ironwood_axe": [
+      16178,
+      1.1101819
+    ],
+    "twilightforest:ironwood_sword": [
+      16265,
+      0.9986282
+    ],
+    "twilightforest:knightmetal_axe": [
+      16141,
+      1.1576267
+    ],
+    "twilightforest:knightmetal_sword": [
+      16240,
+      1.030694
+    ],
+    "twilightforest:seeker_bow": [
+      14632,
+      4.508568
+    ],
+    "twilightforest:steeleaf_axe": [
+      16789,
+      0.0411
+    ],
+    "twilightforest:steeleaf_sword": [
+      16888,
+      0.031199997
+    ],
+    "twilightforest:triple_bow": [
+      14632,
+      4.508568
+    ],
+    "world:darkflame": [
+      15350,
+      2.1854107
+    ],
+    "world:greenstuff": [
+      16166,
+      1.1255676
+    ],
+    "world:lantern": [
+      15776,
+      1.6281849
+    ],
+    "world:swordgreen": [
+      16625,
+      0.5130528
+    ],
+    "world:thflaming_staff": [
+      16918,
+      0.028199999
+    ]
+  },
+  "OFFHAND": {
+    "ars_nouveau:enchanters_shield": [
+      19201,
+      2.053812
+    ],
+    "block_factorys_bosses:dragon_guard_shield": [
+      18701,
+      3.7656157
+    ],
+    "block_factorys_bosses:enhanced_shield": [
+      19301,
+      1.9226934
+    ],
+    "block_factorys_bosses:frozen_fist": [
+      18241,
+      4.8183455
+    ],
+    "cataclysm:azure_sea_shield": [
+      19173,
+      2.0906117
+    ],
+    "cataclysm:black_steel_targe": [
+      18521,
+      4.1986494
+    ],
+    "kaleidoscope_cookery:stockpot_lid": [
+      19961,
+      1.069158
+    ],
+    "l2weaponry:diamond_plate_shield": [
+      17079,
+      7.259756
+    ],
+    "l2weaponry:diamond_round_shield": [
+      17079,
+      7.259756
+    ],
+    "l2weaponry:eternium_plate_shield": [
+      203,
+      43.681698
+    ],
+    "l2weaponry:eternium_round_shield": [
+      203,
+      43.681698
+    ],
+    "l2weaponry:fiery_plate_shield": [
+      18153,
+      5.0075016
+    ],
+    "l2weaponry:fiery_round_shield": [
+      18153,
+      5.0075016
+    ],
+    "l2weaponry:gold_plate_shield": [
+      20137,
+      0.84286135
+    ],
+    "l2weaponry:gold_round_shield": [
+      20137,
+      0.84286135
+    ],
+    "l2weaponry:iron_plate_shield": [
+      19701,
+      1.4031554
+    ],
+    "l2weaponry:iron_round_shield": [
+      19701,
+      1.4031554
+    ],
+    "l2weaponry:ironwood_plate_shield": [
+      19177,
+      2.0853524
+    ],
+    "l2weaponry:ironwood_round_shield": [
+      19177,
+      2.0853524
+    ],
+    "l2weaponry:knightmetal_plate_shield": [
+      19177,
+      2.0853524
+    ],
+    "l2weaponry:knightmetal_round_shield": [
+      19177,
+      2.0853524
+    ],
+    "l2weaponry:netherite_plate_shield": [
+      16139,
+      9.217992
+    ],
+    "l2weaponry:netherite_round_shield": [
+      16139,
+      9.217992
+    ],
+    "l2weaponry:poseidite_plate_shield": [
+      17201,
+      7.0057425
+    ],
+    "l2weaponry:poseidite_round_shield": [
+      17201,
+      7.0057425
+    ],
+    "l2weaponry:sculkium_plate_shield": [
+      16201,
+      9.088633
+    ],
+    "l2weaponry:sculkium_round_shield": [
+      16201,
+      9.088633
+    ],
+    "l2weaponry:shulkerate_plate_shield": [
+      12201,
+      17.527918
+    ],
+    "l2weaponry:shulkerate_round_shield": [
+      12201,
+      17.527918
+    ],
+    "l2weaponry:steeleaf_plate_shield": [
+      19939,
+      1.0973617
+    ],
+    "l2weaponry:steeleaf_round_shield": [
+      19939,
+      1.0973617
+    ],
+    "l2weaponry:totemic_gold_plate_shield": [
+      18201,
+      4.9045377
+    ],
+    "l2weaponry:totemic_gold_round_shield": [
+      18201,
+      4.9045377
+    ],
+    "legendary_monsters:dinosaur_bone_shield": [
+      14701,
+      12.230802
+    ],
+    "legendary_monsters:frostbitten_shield": [
+      19501,
+      1.6619366
+    ],
+    "legendary_monsters:shulker_shield": [
+      19301,
+      1.9226934
+    ],
+    "legendary_monsters:spiky_shield": [
+      19501,
+      1.6619366
+    ],
+    "minecraft:ender_pearl": [
+      19851,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      19823,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      19451,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      19529,
+      1.6255897
+    ],
+    "twilightforest:knightmetal_shield": [
+      18153,
+      5.0075016
+    ]
+  },
+  "FEET": {
+    "ars_nouveau:arcanist_boots": [
+      106983,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_boots": [
+      106223,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_boots": [
+      107399,
+      0.8363856
+    ],
+    "block_factorys_bosses:dragon_bones_boots": [
+      106314,
+      2.243462
+    ],
+    "block_factorys_bosses:knight_boots": [
+      107053,
+      1.2808726
+    ],
+    "burnt:nether_weave_armor_boots": [
+      107958,
+      0.024999999
+    ],
+    "cataclysm:cursium_boots": [
+      104562,
+      6.789111
+    ],
+    "cataclysm:ignitium_boots": [
+      103352,
+      9.309818
+    ],
+    "dungeonnowloading:spawner_boots": [
+      106450,
+      2.0643225
+    ],
+    "irons_spellbooks:archevoker_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_boots": [
+      106254,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_boots": [
+      106302,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_boots": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_boots": [
+      107163,
+      1.1396724
+    ],
+    "kaleidoscope_cookery:farmer_boots": [
+      107467,
+      0.74766654
+    ],
+    "l2complements:eternium_boots": [
+      61,
+      246.4366
+    ],
+    "l2complements:poseidite_boots": [
+      106328,
+      2.2249815
+    ],
+    "l2complements:sculkium_boots": [
+      101598,
+      12.98904
+    ],
+    "l2complements:shulkerate_boots": [
+      103759,
+      8.461127
+    ],
+    "l2complements:totemic_gold_boots": [
+      107078,
+      1.2487506
+    ],
+    "legendary_monsters:atmospheric_boots": [
+      106101,
+      3.3474827
+    ],
+    "legendary_monsters:fiery_boots": [
+      106133,
+      3.22291
+    ],
+    "minecraft:chainmail_boots": [
+      107616,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      106700,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      107682,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      107368,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      107964,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      106573,
+      1.9030677
+    ],
+    "mowziesmobs:geomancer_sandals": [
+      106776,
+      1.6385665
+    ],
+    "opposing_force:deepwoven_boots": [
+      107679,
+      0.42174345
+    ],
+    "twilightforest:arctic_boots": [
+      107070,
+      1.2590272
+    ],
+    "twilightforest:fiery_boots": [
+      105678,
+      4.4243336
+    ],
+    "twilightforest:ironwood_boots": [
+      106969,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_boots": [
+      106428,
+      2.0932417
+    ],
+    "twilightforest:steeleaf_boots": [
+      106493,
+      2.0078652
+    ],
+    "twilightforest:yeti_boots": [
+      106380,
+      2.1564183
+    ]
+  },
+  "LEGS": {
+    "ars_nouveau:arcanist_leggings": [
+      106983,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_leggings": [
+      106223,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_leggings": [
+      107399,
+      0.8363856
+    ],
+    "block_factorys_bosses:dragon_bones_leggings": [
+      106314,
+      2.243462
+    ],
+    "block_factorys_bosses:knight_leggings": [
+      107053,
+      1.2808726
+    ],
+    "burnt:nether_weave_armor_leggings": [
+      107958,
+      0.024999999
+    ],
+    "cataclysm:cursium_leggings": [
+      104562,
+      6.789111
+    ],
+    "cataclysm:ignitium_leggings": [
+      103352,
+      9.309818
+    ],
+    "dungeonnowloading:spawner_leggings": [
+      106410,
+      2.1169202
+    ],
+    "irons_spellbooks:archevoker_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_leggings": [
+      106254,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_leggings": [
+      106302,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_leggings": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_leggings": [
+      107163,
+      1.1396724
+    ],
+    "kaleidoscope_cookery:farmer_leggings": [
+      107467,
+      0.74766654
+    ],
+    "l2complements:eternium_leggings": [
+      61,
+      246.4366
+    ],
+    "l2complements:poseidite_leggings": [
+      106328,
+      2.2249815
+    ],
+    "l2complements:sculkium_leggings": [
+      101598,
+      12.98904
+    ],
+    "l2complements:shulkerate_leggings": [
+      103759,
+      8.461127
+    ],
+    "l2complements:totemic_gold_leggings": [
+      107078,
+      1.2487506
+    ],
+    "minecraft:chainmail_leggings": [
+      107616,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      106700,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      107682,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      107368,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      107964,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      106573,
+      1.9030677
+    ],
+    "mowziesmobs:geomancer_belt": [
+      106776,
+      1.6385665
+    ],
+    "opposing_force:deepwoven_pants": [
+      107674,
+      0.4342237
+    ],
+    "twilightforest:arctic_leggings": [
+      107070,
+      1.2590272
+    ],
+    "twilightforest:fiery_leggings": [
+      105678,
+      4.4243336
+    ],
+    "twilightforest:ironwood_leggings": [
+      106969,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_leggings": [
+      106428,
+      2.0932417
+    ],
+    "twilightforest:naga_leggings": [
+      106690,
+      1.7503701
+    ],
+    "twilightforest:steeleaf_leggings": [
+      106493,
+      2.0078652
+    ],
+    "twilightforest:yeti_leggings": [
+      106380,
+      2.1564183
+    ]
+  },
+  "CHEST": {
+    "ars_nouveau:arcanist_robes": [
+      106983,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_robes": [
+      106223,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_robes": [
+      107399,
+      0.8363856
+    ],
+    "block_factorys_bosses:dragon_bones_chestplate": [
+      106314,
+      2.243462
+    ],
+    "block_factorys_bosses:knight_chestplate": [
+      107053,
+      1.2808726
+    ],
+    "burnt:nether_weave_armor_chestplate": [
+      107958,
+      0.024999999
+    ],
+    "cataclysm:bloom_stone_pauldrons": [
+      106173,
+      3.0056863
+    ],
+    "cataclysm:bone_reptile_chestplate": [
+      104393,
+      7.1410875
+    ],
+    "cataclysm:cursium_chestplate": [
+      104562,
+      6.789111
+    ],
+    "cataclysm:ignitium_chestplate": [
+      103352,
+      9.309818
+    ],
+    "cataclysm:ignitium_elytra_chestplate": [
+      103352,
+      9.309818
+    ],
+    "dungeonnowloading:spawner_chestplate": [
+      106434,
+      2.0853524
+    ],
+    "irons_spellbooks:archevoker_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_chestplate": [
+      106254,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_chestplate": [
+      106302,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_chestplate": [
+      106267,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_chestplate": [
+      107163,
+      1.1396724
+    ],
+    "kaleidoscope_cookery:farmer_chest_plate": [
+      107467,
+      0.74766654
+    ],
+    "l2complements:eternium_chestplate": [
+      61,
+      246.4366
+    ],
+    "l2complements:poseidite_chestplate": [
+      106328,
+      2.2249815
+    ],
+    "l2complements:sculkium_chestplate": [
+      101598,
+      12.98904
+    ],
+    "l2complements:shulkerate_chestplate": [
+      103759,
+      8.461127
+    ],
+    "l2complements:totemic_gold_chestplate": [
+      107078,
+      1.2487506
+    ],
+    "legendary_monsters:mossy_chestplate": [
+      105400,
+      5.028895
+    ],
+    "legendary_monsters:withered_ribcage": [
+      106030,
+      3.571134
+    ],
+    "minecraft:chainmail_chestplate": [
+      107616,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      106700,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      107682,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      107368,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      107964,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      106573,
+      1.9030677
+    ],
+    "mowziesmobs:geomancer_robe": [
+      106776,
+      1.6385665
+    ],
+    "opposing_force:deepwoven_tunic": [
+      107679,
+      0.42174345
+    ],
+    "quark:backpack": [
+      107964,
+      0.0244
+    ],
+    "twilightforest:arctic_chestplate": [
+      107070,
+      1.2590272
+    ],
+    "twilightforest:fiery_chestplate": [
+      105678,
+      4.4243336
+    ],
+    "twilightforest:ironwood_chestplate": [
+      106969,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_chestplate": [
+      106428,
+      2.0932417
+    ],
+    "twilightforest:naga_chestplate": [
+      106690,
+      1.7503701
+    ],
+    "twilightforest:phantom_chestplate": [
+      106351,
+      2.1946402
+    ],
+    "twilightforest:steeleaf_chestplate": [
+      106493,
+      2.0078652
+    ],
+    "twilightforest:yeti_chestplate": [
+      106380,
+      2.1564183
+    ],
+    "world:dragonb_chestplate": [
+      107087,
+      1.2371918
+    ]
+  },
+  "HEAD": {
+    "ars_nouveau:arcanist_hood": [
+      106959,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_hood": [
+      106199,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_hood": [
+      107375,
+      0.8363856
+    ],
+    "block_factorys_bosses:knight_helmet": [
+      107029,
+      1.2808726
+    ],
+    "burnt:gas_mask_armor_helmet": [
+      108034,
+      0.015
+    ],
+    "burnt:nether_weave_armor_helmet": [
+      107934,
+      0.024999999
+    ],
+    "cataclysm:bone_reptile_helmet": [
+      104369,
+      7.1410875
+    ],
+    "cataclysm:cursium_helmet": [
+      104538,
+      6.789111
+    ],
+    "cataclysm:ignitium_helmet": [
+      103328,
+      9.309818
+    ],
+    "cataclysm:monstrous_helm": [
+      106549,
+      1.9030677
+    ],
+    "dungeonnowloading:spawner_helmet": [
+      106365,
+      2.1445646
+    ],
+    "immersive_weathering:flower_crown": [
+      107824,
+      0.036
+    ],
+    "irons_spellbooks:archevoker_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:gold_crown": [
+      106334,
+      2.1854107
+    ],
+    "irons_spellbooks:netherite_mage_helmet": [
+      106230,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_helmet": [
+      106278,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_helmet": [
+      106243,
+      2.3055708
+    ],
+    "irons_spellbooks:tarnished_helmet": [
+      107934,
+      0.024999999
+    ],
+    "irons_spellbooks:wandering_magician_helmet": [
+      107139,
+      1.1396724
+    ],
+    "kaleidoscope_cookery:straw_hat": [
+      107940,
+      0.0244
+    ],
+    "kaleidoscope_cookery:straw_hat_flower": [
+      107940,
+      0.0244
+    ],
+    "l2complements:eternium_helmet": [
+      37,
+      246.4366
+    ],
+    "l2complements:poseidite_helmet": [
+      106304,
+      2.2249815
+    ],
+    "l2complements:sculkium_helmet": [
+      101574,
+      12.98904
+    ],
+    "l2complements:shulkerate_helmet": [
+      103735,
+      8.461127
+    ],
+    "l2complements:totemic_gold_helmet": [
+      107054,
+      1.2487506
+    ],
+    "legendary_monsters:blastproof_helmet": [
+      106342,
+      2.1748655
+    ],
+    "legendary_monsters:chorus_mask": [
+      106461,
+      2.0183623
+    ],
+    "legendary_monsters:shulker_helmet": [
+      106429,
+      2.0603807
+    ],
+    "minecraft:chainmail_helmet": [
+      107592,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      106676,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      107658,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      107344,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      107940,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      106549,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      107288,
+      0.948558
+    ],
+    "mowziesmobs:geomancer_beads": [
+      106752,
+      1.6385665
+    ],
+    "mowziesmobs:sol_visage": [
+      107754,
+      0.042999998
+    ],
+    "mowziesmobs:umvuthana_mask_bliss": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:umvuthana_mask_faith": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:umvuthana_mask_fear": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:umvuthana_mask_fury": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:umvuthana_mask_misery": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:umvuthana_mask_rage": [
+      108028,
+      0.015599999
+    ],
+    "mowziesmobs:wrought_helmet": [
+      107758,
+      0.0426
+    ],
+    "opposing_force:deepwoven_hat": [
+      107655,
+      0.42174345
+    ],
+    "quark:forgotten_hat": [
+      107940,
+      0.0244
+    ],
+    "twilightforest:arctic_helmet": [
+      107046,
+      1.2590272
+    ],
+    "twilightforest:fiery_helmet": [
+      105654,
+      4.4243336
+    ],
+    "twilightforest:ironwood_helmet": [
+      106945,
+      1.3889769
+    ],
+    "twilightforest:knightmetal_helmet": [
+      106404,
+      2.0932417
+    ],
+    "twilightforest:phantom_helmet": [
+      106327,
+      2.1946402
+    ],
+    "twilightforest:steeleaf_helmet": [
+      106469,
+      2.0078652
+    ],
+    "twilightforest:yeti_helmet": [
+      106356,
+      2.1564183
+    ],
+    "world:dragonb_helmet": [
+      107063,
+      1.2371918
+    ]
+  }
+}

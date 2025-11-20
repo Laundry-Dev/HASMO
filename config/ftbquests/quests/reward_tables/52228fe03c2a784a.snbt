@@ -1,0 +1,23 @@
+{
+	id: "52228FE03C2A784A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 10, item: "kaleidoscope_cookery:shengjian_mantou" }
+		{ count: 10, item: "kaleidoscope_cookery:cold_style_sashimi" }
+		{ count: 10, item: "kaleidoscope_cookery:tundra_style_sashimi" }
+		{ count: 10, item: "kaleidoscope_cookery:end_style_sashimi" }
+		{ count: 10, item: "kaleidoscope_cookery:desert_style_sashimi" }
+		{ count: 10, item: "kaleidoscope_cookery:nether_style_sashimi" }
+		{ count: 10, item: "kaleidoscope_cookery:frost_lamb_chop" }
+		{ count: 10, item: "kaleidoscope_cookery:blaze_lamb_chop" }
+		{ count: 10, item: "kaleidoscope_cookery:crystal_lamb_chop" }
+		{ count: 10, item: "kaleidoscope_cookery:sweet_and_sour_ender_pearls" }
+		{ count: 10, item: "kaleidoscope_cookery:stargazy_pie" }
+		{ count: 10, item: "kaleidoscope_cookery:pan_seared_knight_steak" }
+		{ count: 10, item: "kaleidoscope_cookery:yakitori" }
+		{ count: 10, item: "kaleidoscope_cookery:spicy_chicken" }
+		{ count: 10, item: "kaleidoscope_cookery:golden_salad" }
+	]
+	title: "ボスの料理テーブル"
+}
