@@ -1615,6 +1615,42 @@
             ]
         },
         {
+            "pakku_id": "6q6zjEFnKrNfmFO0",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi"
+            },
+            "name": {
+                "curseforge": "EMI"
+            },
+            "id": {
+                "curseforge": "580555"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emi-1.1.22+1.20.1+forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6420/945/emi-1.1.22+1.20.1+forge.jar",
+                    "id": "6420945",
+                    "parent_id": "580555",
+                    "hashes": {
+                        "sha1": "d8049d6ec86befcd100a0ff0fc8ebc289f735997",
+                        "md5": "441c582c6e8a1d6fd9e3d16a27c1a39e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1048567,
+                    "date_published": "2025-04-14T03:37:30.690Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ta8XP9cb9HESfrrK",
             "type": "MOD",
             "slug": {
@@ -5611,6 +5647,47 @@
                     "required_dependencies": [],
                     "size": 520148,
                     "date_published": "2025-04-13T11:20:31.313Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9ENKqkZ7pZDNYI6i",
+            "pakku_links": [
+                "6q6zjEFnKrNfmFO0"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tmrv"
+            },
+            "name": {
+                "curseforge": "TooManyRecipeViewers (TMRV)"
+            },
+            "id": {
+                "curseforge": "1194921"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "toomanyrecipeviewers-0.6.4+mc.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7093/9/toomanyrecipeviewers-0.6.4+mc.20.1.jar",
+                    "id": "7093009",
+                    "parent_id": "1194921",
+                    "hashes": {
+                        "sha1": "4209411389ebc078bdfcc0b54fe33163fc511ce5",
+                        "md5": "abc53ecc7c9ead751c757bb7e3a90d26"
+                    },
+                    "required_dependencies": [
+                        "580555"
+                    ],
+                    "size": 1215706,
+                    "date_published": "2025-10-11T01:34:51.447Z"
                 }
             ]
         },
