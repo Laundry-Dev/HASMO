@@ -1,0 +1,4 @@
+{
+  "_comment_lessParticles": "Decreases the amount of particles that some attacks spawn",
+  "lessParticles": false
+}

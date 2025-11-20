@@ -1,0 +1,141 @@
+# メタデータは変更しないでください。
+# Default: 0
+configVersion = 2
+
+[general]
+
+	# Modの全機能を有効/無効化します。
+	# Default: true
+	enabled = true
+	# これを無効にすると、一人称視点でのみ動作します。
+	# Default: true
+	enableInThirdPerson = true
+	# 視点の横回転の速度によるカメラのロール角の回転の強さ。
+	# Default: 1.0
+	turningRollAccumulation = 1.0
+	# 視点の横回転によるカメラの傾きの最大の強さ。
+	# Default: 1.25
+	turningRollIntensity = 1.25
+	# 視点の横回転によるカメラの傾きの滑らかさ。
+	# Default: 1.0
+	turningRollSmoothing = 1.0
+	# 立ち止まっているときの手振れエフェクトの強さ。
+	# Default: 0.6
+	cameraSwayIntensity = 0.6
+	# 立ち止まっているときの手振れエフェクトの揺れの頻度。
+	# Default: 0.16
+	cameraSwayFrequency = 0.16
+	# 立ち止まってから手振れエフェクトが発生するまでの時間の長さ。
+	# Default: 0.15
+	cameraSwayFadeInDelay = 0.15
+	# 手振れエフェクトが発生してから揺れが最大強度に達するまでの時間の長さ。
+	# Default: 5.0
+	cameraSwayFadeInLength = 5.0
+	# 動き出してから手振れエフェクトが消えるまでの時間の長さ。
+	# Default: 0.75
+	cameraSwayFadeOutLength = 0.75
+	# すべての画面揺れエフェクトの最大の強さ。
+	# Default: 2.5
+	screenShakesMaxIntensity = 2.5
+	# 画面揺れの回転や方向が変化する最大速度。
+	# Default: 6.0
+	screenShakesMaxFrequency = 6.0
+	# 周囲で爆発が起きた時の画面揺れの強さの倍率（0~1）。
+	# Default: 1.0
+	explosionTrauma = 1.0
+	# 周囲で落雷が起きた時の画面揺れの強さの倍率(0~1)。
+	# Default: 0.05
+	thunderTrauma = 0.05
+	# 腕を振る動作をした時の画面揺れの強さの倍率(0~1)。 非常に低い値に設定するのがおすすめ。
+	# Default: 0.03
+	handSwingTrauma = 0.03
+
+[walking]
+
+	# 横移動の速度によるカメラのロール角の回転の強さ。
+	# Default: 10.0
+	strafingRollFactor = 10.0
+	# 前後移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# 上下移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# 水平移動によるカメラのピッチ＆ロール角の回転の滑らかさ。
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# 上下移動によるカメラのピッチ角の回転の滑らかさ。
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[swimming]
+
+	# 横移動の速度によるカメラのロール角の回転の強さ。
+	# Default: -30.0
+	strafingRollFactor = -30.0
+	# 前後移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 21.0
+	forwardVelocityPitchFactor = 21.0
+	# 上下移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 7.5
+	verticalVelocityPitchFactor = 7.5
+	# 水平移動によるカメラのピッチ＆ロール角の回転の滑らかさ。
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# 上下移動によるカメラのピッチ角の回転の滑らかさ。
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[flying]
+
+	# 横移動の速度によるカメラのロール角の回転の強さ。
+	# Default: -10.0
+	strafingRollFactor = -10.0
+	# 前後移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# 上下移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# 水平移動によるカメラのピッチ＆ロール角の回転の滑らかさ。
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# 上下移動によるカメラのピッチ角の回転の滑らかさ。
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[mounts]
+
+	# 横移動の速度によるカメラのロール角の回転の強さ。
+	# Default: 20.0
+	strafingRollFactor = 20.0
+	# 前後移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 7.0
+	forwardVelocityPitchFactor = 7.0
+	# 上下移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# 水平移動によるカメラのピッチ＆ロール角の回転の滑らかさ。
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# 上下移動によるカメラのピッチ角の回転の滑らかさ。
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+
+[vehicles]
+
+	# 横移動の速度によるカメラのロール角の回転の強さ。
+	# Default: 5.0
+	strafingRollFactor = 5.0
+	# 前後移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 1.75
+	forwardVelocityPitchFactor = 1.75
+	# 上下移動の速度によるカメラのピッチ角の回転の強さ。
+	# Default: 5.0
+	verticalVelocityPitchFactor = 5.0
+	# 水平移動によるカメラのピッチ＆ロール角の回転の滑らかさ。
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# 上下移動によるカメラのピッチ角の回転の滑らかさ。
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0

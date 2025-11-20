@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04FFEEFD54E680DE"
+	group: "12F3D2BD1F2D19AC"
+	icon: {
+		Count: 1
+		id: "weaponmaster:wm_broadsword"
+		tag: {
+			Ability: "none"
+			AicData: {
+				AgressiveAbility: 25.0f
+				AttackHostile: 25.0f
+				AttackPassive: 25.0f
+				Farming: 0.0f
+				Fishing: 0.0f
+				LowDurability: 5.0f
+				LowHealth: 5.0f
+				Mining: 0.0f
+				NearHostile: 5.0f
+				PassiveAbility: 25.0f
+				Respawn: 0.0f
+				TakeDamage: 5.0f
+				VersionNumber: 2
+			}
+			AicMood: ""
+			AicPersonality: ""
+			BonusDucks: 0
+			CoreWeaponUUID: [I;
+				-1558523643
+				-1776204560
+				-2034714765
+				1813866261
+			]
+			CoreWeaponlevels: { }
+			CoreWeaponlevelsPlayerless: { }
+			Damage: 0
+			LastAicMessageTime: 0L
+			PartList: {
+				blade: "radiance1"
+				guard: "ferozium1"
+				handle: "spirewood"
+			}
+			PhanToolStatus: 0b
+			PreviousPlayerUUID: ""
+			Rerolls: 0
+			SelectedLevel: "AttackLevel"
+			UnlockedAICs: { }
+			UnlockedAbilities: "none"
+			WeaponID: "sword"
+			display: {
+				Name: "{\"text\":\"Broadsword\"}"
+			}
+		}
+	}
+	id: "04FFEEFD54E680DE"
+	images: [
+		{
+			height: 7.0d
+			image: "hasmo:textures/quests/1toukyuu.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "hasmo:textures/quests/2toukyuu.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "hasmo:textures/quests/3toukyuu.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "hasmo:textures/quests/4toukyuu.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 27.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ⅰ等級のボスは、冒険を始めたばかりの冒険家でも個人で比較的容易に討伐できる存在です。攻撃力や体力は低く、戦闘の基礎を学ぶ練習相手として最適でしょう。"
+				"生息地が広く、様々な地域で頻繁に出現します。そのため、探索中に遭遇することも多く、戦闘経験を積むにはうってつけの相手です。"
+			]
+			id: "705E527DBFBF73D1"
+			subtitle: "Tutorial"
+			tasks: [{
+				id: "30E4D11E026E5E04"
+				title: "Ⅰ等級"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"この等級に分類されうる存在は、個人でも挑戦可能ですが、油断は命取りになります。"
+				"攻撃力・耐久力ともに高く、考えなしの力押しでは勝てないでしょう。"
+				"Ⅱ等級からは、武器の性能や戦闘中の立ち回り、更には魔法など、戦略的な判断や複合的な要素が求められます"
+				"対策を怠れば、熟練者でも痛い目を見るでしょう"
+			]
+			id: "79B670376FBBD7DC"
+			subtitle: "危険な存在"
+			tasks: [{
+				id: "4EFCD08CB6BD8327"
+				title: "Ⅱ等級"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"この等級の存在は、個人での討伐は推奨されていません。"
+				"圧倒的な攻撃力と耐久力を持ち、正面からの戦いではまず勝てないでしょう。"
+				"戦略的な立ち回りや仲間との連携が必須となり、油断すれば瞬く間に壊滅します。"
+				"また、これらの存在は生息地が限られており、遭遇することすら珍しいでしょう。"
+			]
+			id: "17DE2A3BB31A067D"
+			subtitle: "複数人での討伐が推奨される"
+			tasks: [{
+				id: "295BC02A9206A939"
+				title: "Ⅲ等級"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"この等級に分類される存在は、団体での討伐すら推奨されていません。"
+				"たとえ十分な装備を整え、策を練ったとしても最終的に勝利を決めるのは運そのものです。"
+				"その力は常識を超え、観測されるたびに壊滅的被害をもたらしているため、文献が存在しないことも多いです"
+				"記録の大半が断片的な報告にとどまっているため、対策や有効な武器なども不明な点がほとんどです"
+				"もし遭遇した場合、それは冒険の終わりを意味するかもしれません"
+			]
+			id: "60F6A1FBA85967A5"
+			subtitle: "熟達者"
+			tasks: [{
+				id: "3D3D99AEFFA52317"
+				title: "Ⅳ等級"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"この等級に属する存在は、確認例すら存在しない...伝説級の怪異"
+				"その名は古文書や伝承、物語の中のみに記され、神話の領域に足を踏み入れた存在とされている"
+				"実在すら危うく、本当に存在するとすれば...人が敵う相手ではない"
+				"伝承によると、存在が観測されるたびに破局的壊滅をもたらしている"
+				"今なお多くの冒険者や、命知らずがその痕跡を求めて旅立つが..."
+				"誰一人として、帰還した者はいない"
+			]
+			id: "03A95789F0522D13"
+			subtitle: "正体不明"
+			tasks: [{
+				id: "1A0B0CDC8E46A007"
+				title: "不明"
+				type: "checkmark"
+			}]
+			x: 34.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["059B3284EEA76FD5"]
+			description: [
+				"彼はかつて栄えた王国の国王を守護する近衛兵でした。"
+				"ですが、彼は自らが守護する対象を自身の無力さ故死なせ、あろうことか自分自身が生き残ってしまいました。"
+				"その後悔の念は、その出来事から遥か時が経った今ですら、彼の中で渦巻いています。"
+				""
+				"構造物ID:Wrought Chanber"
+			]
+			id: "08C59F2E8B605279"
+			rewards: [
+				{
+					id: "4BD2F5BAFEFF628E"
+					item: "l2artifacts:random_5"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "081E2C429069E033"
+					table_id: 5918451053563115594L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62139B7DC32BB934"
+					table_id: 8773929693599031959L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "3AAD03EA6D62ED56"
+				title: "永久の守護者を討伐する"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"おっと、ボスを倒す冒険を始める前に、一つ注意事項があります。"
+				"倒すべきボスは確かに多いですが、ある程度この順番通りに倒せば楽になる指標を作っておきました。"
+				"必ずしもこの通りに倒す必要はありません、ですが、楽になることは間違いないでしょう。"
+			]
+			id: "059B3284EEA76FD5"
+			subtitle: "念入りな準備を"
+			tasks: [{
+				id: "3AEDE18A4FE85C0F"
+				title: "始める前に"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "等級"
+}
